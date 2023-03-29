@@ -1,0 +1,37 @@
+You need to add classes to support the required shapes.
+
+ 
+
+Supported shapes are defined as:
+
+ 
+
+Circle - A circle is defined by a single parameter representing radius.
+Rectangle - A rectangle is defined by two parameters representing the size of each edge.
+Square - A square is defined by a single parameter representing the size of edges.
+ 
+
+Besides implementing the classes, you also need to finish the implementation of a factory class called ShapeFactory by implementing the CreateShape method.You need to add classes to support the required shapes.
+
+ 
+
+Supported shapes are defined as:
+
+ 
+
+Circle - A circle is defined by a single parameter representing radius.
+Rectangle - A rectangle is defined by two parameters representing the size of each edge.
+Square - A square is defined by a single parameter representing the size of edges.
+ 
+
+Besides implementing the classes, you also need to finish the implementation of a factory class called ShapeFactory by implementing the CreateShape method. Technical Considerations
+While implementing the solution it is important to pay attention to the technical considerations defined in this section.
+
+ 
+
+Use defined constant PI from Constants for calculating the area and the perimeter of a circle.
+The factory method (i.e. CreateShape) should throw the following exceptions:
+WrongParamCountException - Thrown if a wrong number of parameters is sent to the CreateShape method for a given shape. Each shape should only accept exactly the parameter count it needs.
+UsupportedShapeException - Thrown if an unsupported shape is requested from the CreateShape factory method.
+The above exceptions should not only be thrown but also defined.
+You should define your classes in their respective files. considering the above information, create a correct circle, rectangle, square and shapefactor php files
